@@ -17,16 +17,21 @@
 
     <!-- Google Font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
     <!-- Custom CSS -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- JavaScript/Jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js" defer></script>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top px-4 py-3">
         <div class="container-fluid">
-            <a class="navbar-brand d-flex align-items-center" href="index.html">
+            <a class="navbar-brand d-flex align-items-center" href="index.html" id="myname">
                 <i class="bi bi-code-slash fs-3 text-primary me-2"></i>
-                NIVAS SARAVANA N
+                <!-- <span id="myname"></span> --> NIVAS SARAVANA N
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -62,8 +67,10 @@
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#">Resume</a>
                         <ul class="dropdown-menu dropdown-menu-end">
-                            <li><a class="dropdown-item" href="files/Res_Nivas_Saravana_N.pdf" target="_blank">View</a></li>
-                            <li><a class="dropdown-item" href="files/Res_Nivas_Saravana_N.pdf" download>Download</a></li>
+                            <li><a class="dropdown-item" href="files/DT_Resume_Nivas_Saravana_N.pdf" target="_blank">View</a>
+                            </li>
+                            <li><a class="dropdown-item" href="files/DT_Resume_Nivas_Saravana_N.pdf" download>Download</a>
+                            </li>
                         </ul>
                     </li>
                 </ul>
@@ -185,8 +192,10 @@
                         <div class="card-body">
                             <img src="images/p1.jpg" class="img-fluid mb-3" alt="">
                             <h5 class="card-title">Personal Portfolio Website</h5>
-                            <a href="https://github.com/nivas-s-n/Portfolio" class="btn btn-outline-primary project-btn">View Project</a>
-                            <a href="https://nivas-s-n.github.io/Portfolio/" class="btn btn-outline-primary project-btn">Visit Site</a>
+                            <a href="https://github.com/nivas-s-n/Portfolio"
+                                class="btn btn-outline-primary project-btn">View Project</a>
+                            <a href="https://nivas-s-n.github.io/Portfolio/"
+                                class="btn btn-outline-primary project-btn">Visit Site</a>
                         </div>
                     </div>
                 </div>
@@ -414,8 +423,7 @@
                             <p class="card-text text-white">
                                 Feel free to reach out for collaborations, opportunities, or just a friendly chat!
                             </p>
-                            <a href="mailto:nivassaravana01@gmail.com" 
-                                class="btn btn-primary" target="_blank">
+                            <a href="mailto:nivassaravana01@gmail.com" class="btn btn-primary" target="_blank">
                                 <i class="bi bi-envelope me-2"></i> Send Email
                             </a>
                             <!-- <a href="https://mail.google.com/mail/?view=cm&fs=1&to=nivassaravana01@gmail.com&su=Portfolio%20Inquiry&body=Hello%20Nivas,"
@@ -452,4 +460,5 @@
         </div>
     </footer>
 </body>
+
 </html>
